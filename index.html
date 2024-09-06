@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apna Culture</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="temples-slideshow.css">
+
+    <script src="temple-slideshow.js"></script>
+
+
+</head>
+<body>
+    <!-- this is header-->
+    <div class="header">
+        <video autoplay muted loop class="video-background">
+            <source src="rrr.mp4" type="video/mp4">
+            
+        </video>
+
+        <nav>
+            <div class="logo"><h2>APNA CULTURE</h2></div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quizdex.html">Quiz</a></li>
+                <li><a href="bytess.html">Culture Bytes</a></li>
+                <li><a href="#monuments"></a></li>
+                <li><a href="index.html"></a></li>
+            </ul>
+            <script>
+                window.addEventListener('scroll', function() {
+                const nav = document.querySelector('nav');
+                if (window.scrollY > 50) { // Change 50 to the scroll position where you want the effect to start
+                nav.classList.add('scrolled');
+                } else {
+                nav.classList.remove('scrolled');
+                }
+                });
+            </script>
+        </nav>
+
+        <div class="content">
+            <h1>Explore Our Rich Culture</h1>
+            <center><p>India is a country dotted with stunning wildlife diversity, and rich traditions.</p></center>
+            <br>
+            <button><a href="#yes" alt="">Read More</a></button>
+        </div>
+    </div>
+
+
+        <!-- This is for the slideshow section-->
+        <div class="container">
+            <div id = "yes"></div>
+            <h1>Explore!</h1>
+           
+            <div class="card__container">
+               <article class="card__article">
+                <img src="gg.jpg"  alt="image" class="card__img"></img>
+                  <div class="card__data">
+                     <span class="card__description"></span>
+                     <h2 class="card__title"><h2>Art</h2>
+                     <a href="info.html" class="card__button">Read More</a>
+                  </div>
+                  
+               </article>
+   
+               <article class="card__article">
+                  <img src="taj-mahal-4694915_1280.jpg"  alt="image" class="card__img"></img>
+   
+                  <div class="card__data">
+                     <span class="card__description"></span>
+                     <h2 class="card__title"><h2>Monuments</h2>
+                     <a href="info2.html" class="card__button">Read More</a>
+                  </div>
+               </article>
+   
+               <article class="card__article">
+                  <img src="mm.jpg" height="200" width="200" alt="image" class="card__img">
+   
+                  <div class="card__data">
+                     <span class="card__description"></span>
+                     <h2 class="card__title"><h2>Temples</h2>
+                     <a href="info3.html" class="card__button">Read More</a>
+                  </div>
+
+                
+            </div>
+         </div>
+
+
+
+
+         
+
+
+        
+        
+
+
+
+
+         <footer style="background-color: #333333; color: #eee; padding: 40px 0; font-family: Arial, sans-serif; width: 100%">
+            <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+                <!-- Section 1: Logo and Tagline -->
+                <div style="flex: 1; min-width: 200px; text-align: center; margin-bottom: 20px;">
+                    <h1>APNA CULTURE</h1>
+                    <p style="margin-top: 10px;">             "Preserving India's Cultural Essence"</p>
+                </div>
+        
+                <!-- Section 2: Quick Links -->
+                <div style="flex: 1; min-width: 200px; text-align: center; margin-bottom: 20px;">
+                    <h4 style="margin-bottom: 10px;">Quick Links</h4>
+                    <ul style="list-style: none; padding: 0;">
+                        <li><a href="#about" style="color: #eee; text-decoration: none;">About Us</a></li>
+                        <li><a href="#temples" style="color: #eee; text-decoration: none;">Temples</a></li>
+                        <li><a href="#history" style="color: #eee; text-decoration: none;">History</a></li>
+                        <li><a href="#contact" style="color: #eee; text-decoration: none;">Contact</a></li>
+                    </ul>
+                </div>
+        
+                <!-- Section 3: Contact Information -->
+                <div style="flex: 1; min-width: 200px; text-align: center; margin-bottom: 20px;">
+                    <h4 style="margin-bottom: 10px;">Contact Us</h4>
+                    <p>Email: info@heritageofindia.com</p>
+                    <p>Phone: +91 12345 67890</p>
+                    <p>Location: New Delhi, India</p>
+                </div>
+        
+                <!-- Section 4: Social Media Links -->
+                <div style="flex: 1; min-width: 200px; text-align: center; margin-bottom: 20px;">
+                    <h4 style="margin-bottom: 10px;">Follow Us</h4>
+                    
+                    </div>
+                </div>
+            </div>
+            <!-- Section 5: Copyright and Legal -->
+            <div style="text-align: center; margin-top: 30px; border-top: 1px solid #444; padding-top: 20px;">
+                <p>&copy; 2024 Heritage of India. All Rights Reserved. | <a href="#privacy" style="color: #eee; text-decoration: none;">Privacy Policy</a></p>
+            </div>
+        </footer>
+
+        <!-- this section is for map-->
+        
+       
+            
+        
+   
+</body>
+</html>
